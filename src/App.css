@@ -17,14 +17,36 @@ body {
   margin: auto;
   flex-direction: column;
 }
-.form {
+/* .form {
   position: absolute;
   top: 22vh;
   margin: auto;
   line-height: 2.25rem;
-}
+} */
 .select {
   color: black;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.table {
+  position: absolute;
+  top: 300px;
+  margin: auto;
+  line-height: 2.25rem;
+  left: 480px;
+}
+.table td {
+  color: aliceblue;
+}
+.table td span {
+  padding: 10px;
+  display: inline-block;
+  width: fit-content;
+  height: 10px;
+  /* background-color: blueviolet; */
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
